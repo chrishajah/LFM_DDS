@@ -1,0 +1,1 @@
+dds_001.vhd,vhdl,xil_defaultlib,../../../../project_dds2.srcs/sources_1/ip/dds_001/sim/dds_001.vhd,

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dds_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dds_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8095000000001fs"></ZoomEndTime>
+      <Cursor1Time time="10989365000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="270"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/dds_tb/clk_sys" type="logic">
+      <obj_property name="ElementShortName">clk_sys</obj_property>
+      <obj_property name="ObjectShortName">clk_sys</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/tb_dds_data_sin0" type="array">
+      <obj_property name="ElementShortName">tb_dds_data_sin0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_dds_data_sin0[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/tb_dds_data_cos0" type="array">
+      <obj_property name="ElementShortName">tb_dds_data_cos0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_dds_data_cos0[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/tb_phase_tdata" type="array">
+      <obj_property name="ElementShortName">tb_phase_tdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_phase_tdata[23:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/tb_config_data_poff" type="array">
+      <obj_property name="ElementShortName">tb_config_data_poff[23:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_config_data_poff[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/tb_config_data_pinc" type="array">
+      <obj_property name="ElementShortName">tb_config_data_pinc[23:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_config_data_pinc[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/config_valid" type="logic">
+      <obj_property name="ElementShortName">config_valid</obj_property>
+      <obj_property name="ObjectShortName">config_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/tb_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">tb_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tb_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/tb_phase_tvalid" type="logic">
+      <obj_property name="ElementShortName">tb_phase_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tb_phase_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dds_tb/CYCLE" type="array">
+      <obj_property name="ElementShortName">CYCLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CYCLE[31:0]</obj_property>
+   </wvobject>
+</wave_config>

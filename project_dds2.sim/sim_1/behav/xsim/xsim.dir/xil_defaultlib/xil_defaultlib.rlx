@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Chris/project_dds2/project_dds2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Chris/project_dds2/project_dds2.srcs/sim_1/new/dds_tb.v,1729687127,verilog,,,,dds_tb,,,,,,,,
+C:/Users/Chris/project_dds2/project_dds2.srcs/sim_1/new/tb_counter.v,1729670142,verilog,,,,tb_counter,,,,,,,,
+C:/Users/Chris/project_dds2/project_dds2.srcs/sim_1/new/tb_top.v,1729731725,verilog,,,,tb_top,,,,,,,,
+C:/Users/Chris/project_dds2/project_dds2.srcs/sources_1/ip/dds_001/sim/dds_001.vhd,1729673091,vhdl,,,,dds_001,,,,,,,,
+C:/Users/Chris/project_dds2/project_dds2.srcs/sources_1/new/dds_0001.v,1729517098,verilog,,C:/Users/Chris/project_dds2/project_dds2.srcs/sim_1/new/dds_tb.v,,dds_0001,,,,,,,,
+C:/Users/Chris/project_dds2/project_dds2.srcs/sources_1/new/pinc_counter.v,1729674045,verilog,,C:/Users/Chris/project_dds2/project_dds2.srcs/sources_1/new/top.v,,pinc_counter,,,,,,,,
+C:/Users/Chris/project_dds2/project_dds2.srcs/sources_1/new/top.v,1729687288,verilog,,C:/Users/Chris/project_dds2/project_dds2.srcs/sim_1/new/tb_top.v,,top,,,,,,,,

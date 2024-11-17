@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/project_dds2/project_dds2.sim/sim_1/synth/func/xsim/dds_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dds_0001
+INFO: [VRFC 10-311] analyzing module dds_001
+INFO: [VRFC 10-311] analyzing module dds_001_dds_compiler_v6_0_17
+INFO: [VRFC 10-311] analyzing module dds_001_accum
+INFO: [VRFC 10-311] analyzing module dds_001_dds_compiler_v6_0_17_core
+INFO: [VRFC 10-311] analyzing module dds_001_dds_compiler_v6_0_17_rdy
+INFO: [VRFC 10-311] analyzing module dds_001_dds_compiler_v6_0_17_viv
+INFO: [VRFC 10-311] analyzing module dds_001_pipe_add
+INFO: [VRFC 10-311] analyzing module dds_001_pipe_add_8
+INFO: [VRFC 10-311] analyzing module dds_001_sin_cos
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv_0
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized1
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized11
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized15
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized17
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized19
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized19_7
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized21
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized21_1
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized21_2
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized21_3
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized21_4
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized21_6
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized23
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized23_5
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized3
+INFO: [VRFC 10-311] analyzing module dds_001_xbip_pipe_v3_0_5_viv__parameterized9
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/project_dds2/project_dds2.srcs/sim_1/new/dds_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dds_tb

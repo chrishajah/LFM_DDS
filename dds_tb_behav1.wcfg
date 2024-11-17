@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="30752674960000fs"></ZoomStartTime>
+      <ZoomEndTime time="40452674960001fs"></ZoomEndTime>
+      <Cursor1Time time="11411935120000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="313"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_top/top_test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/freq_conf_l" type="array">
+      <obj_property name="ElementShortName">freq_conf_l[23:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_conf_l[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/freq_conf_h" type="array">
+      <obj_property name="ElementShortName">freq_conf_h[23:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_conf_h[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/offset_conf" type="array">
+      <obj_property name="ElementShortName">offset_conf[23:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_conf[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/mode" type="logic">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/config_valid" type="logic">
+      <obj_property name="ElementShortName">config_valid</obj_property>
+      <obj_property name="ObjectShortName">config_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/dds_rst_n" type="logic">
+      <obj_property name="ElementShortName">dds_rst_n</obj_property>
+      <obj_property name="ObjectShortName">dds_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/cnt_rst_n" type="logic">
+      <obj_property name="ElementShortName">cnt_rst_n</obj_property>
+      <obj_property name="ObjectShortName">cnt_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/conf" type="logic">
+      <obj_property name="ElementShortName">conf</obj_property>
+      <obj_property name="ObjectShortName">conf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/I_out" type="array">
+      <obj_property name="ElementShortName">I_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/Q_out" type="array">
+      <obj_property name="ElementShortName">Q_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/config_data_pinc" type="array">
+      <obj_property name="ElementShortName">config_data_pinc[23:0]</obj_property>
+      <obj_property name="ObjectShortName">config_data_pinc[23:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/data_tvalid" type="logic">
+      <obj_property name="ElementShortName">data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/phase_tvalid" type="logic">
+      <obj_property name="ElementShortName">phase_tvalid</obj_property>
+      <obj_property name="ObjectShortName">phase_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/phase_tdata" type="array">
+      <obj_property name="ElementShortName">phase_tdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_tdata[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_test/cout" type="array">
+      <obj_property name="ElementShortName">cout[23:0]</obj_property>
+      <obj_property name="ObjectShortName">cout[23:0]</obj_property>
+   </wvobject>
+</wave_config>
