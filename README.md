@@ -1,0 +1,17 @@
+DDS LFM Generator
+- This project is a DDS based LFM waveform generator running on Vivado 2018.3. Module provides frequency Start/End conifig ports **freq_conf_h / freq_conf_l (24bits)** stands for **29.8 Hz** to **500 Mhz** ,frequency resolution $\Delta f = \frac{500Mhz}{2^{24}} \approx 29.8Hz$.Frequency modulation mode can be configured by port  __**mode**__  :** 0 for Sawtooth modulated/1 for Triangle modulated. **Phase offset can be configured using ports  __**offset_conf(24 bits)**__  .Some auxiliary ports (e.g. reset,config,enable) is given as well.
+- Schematic
+    - IO overview
+        - ![](https://remnote-user-data.s3.amazonaws.com/Xqb-ck2Fuuk_zSZtHDhxxuEFNYzLa_Jsv4Wj_ZcE9ZP3-25oMcc4SpFk55hn-vN3kPTdfm8XqONBLuRLVUIUtFmZc7CKqQzS6Y7UNpY_EbZLZPm9pCkUU4b63LlZ7tC0.png)
+    - Components
+        - ![](https://remnote-user-data.s3.amazonaws.com/ZY9_f9VNOK3S7ENTPYL0umFQ98qVXEY5-pX6eK78Ad3UhFky-V9gJDZAYVGPH2WtMIY5I3E7nTkCp9JQYYMrOMKIpVr28Isgv1tV7AMyRpDjIKs06ZyNK4uBeM2JtIlo.png)
+    - Module consists of a 24 bit counter **(pinc_conter)** for phase tdata to control frequency by clocks.Output of the counter connects a IP Catalog DDS to generate output for both IQ channel.
+- Operation Timing
+    - Start/End Config
+        - ![](https://remnote-user-data.s3.amazonaws.com/Jy1qmiwq-gyigZnBcdfzQvw0DhLMo6B-2MsCdKI2NZ_jDkEmFroQH_HHmk9zr1Lu1uY3ZSBdLRxN2OsRmMntYemrWyxzbAp8BqTuIyhBmwGyZ4OSn3YHHlSoXo5uRKVh.png)
+        - The conter reads the input config ports at the positive edge of clk when both  **conf & conf_valid**   port is high.
+    - Mode Config
+        - ![](https://remnote-user-data.s3.amazonaws.com/Qm5Xe9zed5GdtMH69iUg0PxVNWqY3vcK3qqblQuu6Kzvq6LJOTFriRsHcscLRujAWzWcGpmHO_VZoYJoaOh0zdalHJsmaarqAYws-oG8qDKYZ3Yhyhxc9t2wlRqr4k23.png)
+        - Modulate mode can be configured at the positive edge of clk when the **en** port is high.Port  **mode**  0 stands for sawtooth modulate,1 stands for triangle modulate.
+- Simulation
+    - ![](https://remnote-user-data.s3.amazonaws.com/40PsRB4wkHd4mUXtOew0IliAc6Er3kxysfOI0qxDVsezDhXLSRjLDnL5x9WY493QUoQurtUYUtcmztgLvBL0l6KiulLS_cTMyhsLe2fTr7iIm5XM7tlQrEjd8_eXACNt.png)
